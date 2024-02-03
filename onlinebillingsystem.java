@@ -71,9 +71,21 @@ public class onlinebillingsystem{
         products.add(new Product("Laptop", 800.0));
         products.add(new Product("Headphones", 50.0));
         products.add(new Product("Mouse", 20.0));
+        products.add(new Product("Smartphones", 10000.0));
+        products.add(new Product("Smartwatches", 500.0));
+        products.add(new Product("Cameras", 5000.0));
+        products.add(new Product("Speakers", 1000.0));
+        products.add(new Product("Fitness Trackers", 200.0));
+        products.add(new Product("Playstation", 6000.0));
+        products.add(new Product("SmartHomeDevices", 8000.0));
+        products.add(new Product("SmartTV's", 20000.0));
+        products.add(new Product("Printers", 700.0));
+        products.add(new Product("VR Headsets", 900.0));
+        products.add(new Product("Networking Devices", 2000.0));
+        products.add(new Product("Security Cameras", 4000.0));
 
         // Add a sample user
-        users.add(new User("saloni", "saloni@24", 1000.0));
+        users.add(new User("saloni", "saloni@24", 60000.0));
     }
 
     private static void login(Scanner scanner) {
