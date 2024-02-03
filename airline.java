@@ -18,28 +18,30 @@ class ReservationSystem {
     public ReservationSystem() {
         // Initialize some flights
         flights = new Flight[]{
-                new Flight("FL001", "35A"),
-                new Flight("FL002", "36B"),
-                new Flight("FL003", "35C"),
-                new Flight("FL004", "36D"),
-                new Flight("FL005", "31A"),
-                new Flight("FL006", "32A"),
-                new Flight("FL007", "31D"),
-                new Flight("FL008", "34A"),
-                new Flight("FL009", "37C"),
-                new Flight("FL010", "31B"),
-                new Flight("FL011", "32B"),
-                new Flight("FL012", "33C"),
-                new Flight("FL013", "34B"),
-                new Flight("FL014", "35B"),
-                new Flight("FL015", "31C"),
-                new Flight("FL016", "32C"),
-                new Flight("FL017", "35D"),
-                new Flight("FL018", "32D"),
-                new Flight("FL019", "36C"),
-                new Flight("FL020", "34C")
+                flights = new Flight[]{
+                new Flight("FL001", 35),
+                new Flight("FL002", 36),
+                new Flight("FL003", 35),
+                new Flight("FL004", 36),
+                new Flight("FL005", 31),
+                new Flight("FL006", 32),
+                new Flight("FL007", 31),
+                new Flight("FL008", 34),
+                new Flight("FL009", 37),
+                new Flight("FL010", 31),
+                new Flight("FL011", 32),
+                new Flight("FL012", 33),
+                new Flight("FL013", 34),
+                new Flight("FL014", 35),
+                new Flight("FL015", 31),
+                new Flight("FL016", 32),
+                new Flight("FL017", 35),
+                new Flight("FL018", 32),
+                new Flight("FL019", 36),
+                new Flight("FL020", 34)
         };
     }
+
 
     public void displayFlights() {
         System.out.println("Available Flights:");
